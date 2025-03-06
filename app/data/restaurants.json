@@ -1,0 +1,345 @@
+{
+  "restaurants": [
+    {
+      "id": "lc001",
+      "name": "La Cucina",
+      "cuisine": "Italian",
+      "location": "Downtown",
+      "address": "123 Main St, Downtown",
+      "rating": 4.5,
+      "price_range": "₹₹₹",
+      "ambiance": ["Romantic", "Intimate", "Elegant"],
+      "seating": {
+        "total_capacity": 60,
+        "table_types": {
+          "2_seater": 10,
+          "4_seater": 8,
+          "6_seater": 4,
+          "private_room": 1
+        }
+      },
+      "hours": {
+        "monday": "17:00-23:00",
+        "tuesday": "17:00-23:00",
+        "wednesday": "17:00-23:00",
+        "thursday": "17:00-23:00",
+        "friday": "17:00-00:00",
+        "saturday": "17:00-00:00",
+        "sunday": "17:00-22:00"
+      },
+      "features": ["Wine Cellar", "Outdoor Seating", "Valet Parking"]
+    },
+    {
+      "id": "br002",
+      "name": "Bella Roma",
+      "cuisine": "Italian",
+      "location": "Downtown",
+      "address": "456 Oak Ave, Downtown",
+      "rating": 4.3,
+      "price_range": "₹₹",
+      "ambiance": ["Rustic", "Casual", "Family-friendly"],
+      "seating": {
+        "total_capacity": 80,
+        "table_types": {
+          "2_seater": 12,
+          "4_seater": 10,
+          "6_seater": 5
+        }
+      },
+      "hours": {
+        "monday": "11:30-22:00",
+        "tuesday": "11:30-22:00",
+        "wednesday": "11:30-22:00",
+        "thursday": "11:30-22:00",
+        "friday": "11:30-23:00",
+        "saturday": "11:30-23:00",
+        "sunday": "11:30-22:00"
+      },
+      "features": ["Kids Menu", "Takeout", "Delivery"]
+    },
+    {
+      "id": "ts003",
+      "name": "Tokyo Star",
+      "cuisine": "Japanese",
+      "location": "Business District",
+      "address": "789 Cherry Blossom Lane, Business District",
+      "rating": 4.7,
+      "price_range": "₹₹₹₹",
+      "ambiance": ["Modern", "Upscale", "Minimalist"],
+      "seating": {
+        "total_capacity": 40,
+        "table_types": {
+          "2_seater": 8,
+          "4_seater": 5,
+          "private_room": 2
+        }
+      },
+      "hours": {
+        "monday": "18:00-22:30",
+        "tuesday": "18:00-22:30",
+        "wednesday": "18:00-22:30",
+        "thursday": "18:00-22:30",
+        "friday": "18:00-23:00",
+        "saturday": "18:00-23:00",
+        "sunday": "18:00-22:00"
+      },
+      "features": ["Omakase", "Sake Bar", "Private Dining"]
+    },
+    {
+      "id": "sp004",
+      "name": "Spice Paradise",
+      "cuisine": "Indian",
+      "location": "Cultural District",
+      "address": "321 Spice Road, Cultural District",
+      "rating": 4.6,
+      "price_range": "₹₹",
+      "ambiance": ["Traditional", "Vibrant", "Family-style"],
+      "seating": {
+        "total_capacity": 100,
+        "table_types": {
+          "2_seater": 15,
+          "4_seater": 12,
+          "6_seater": 6,
+          "8_seater": 3
+        }
+      },
+      "hours": {
+        "monday": "11:00-22:30",
+        "tuesday": "11:00-22:30",
+        "wednesday": "11:00-22:30",
+        "thursday": "11:00-22:30",
+        "friday": "11:00-23:00",
+        "saturday": "11:00-23:00",
+        "sunday": "11:00-22:30"
+      },
+      "features": ["Buffet", "Catering", "Private Events"]
+    },
+    {
+      "id": "bb005",
+      "name": "Burger Bistro",
+      "cuisine": "American",
+      "location": "Shopping District",
+      "address": "555 Mall Road, Shopping District",
+      "rating": 4.2,
+      "price_range": "₹₹",
+      "ambiance": ["Casual", "Modern", "Family-friendly"],
+      "seating": {
+        "total_capacity": 70,
+        "table_types": {
+          "2_seater": 10,
+          "4_seater": 12,
+          "6_seater": 3
+        }
+      },
+      "hours": {
+        "monday": "11:00-22:00",
+        "tuesday": "11:00-22:00",
+        "wednesday": "11:00-22:00",
+        "thursday": "11:00-22:00",
+        "friday": "11:00-23:00",
+        "saturday": "11:00-23:00",
+        "sunday": "11:00-22:00"
+      },
+      "features": ["Sports Bar", "Outdoor Seating", "Kids Play Area"]
+    },
+    {
+      "id": "pi006",
+      "name": "Piacere Italian",
+      "cuisine": "Italian",
+      "location": "Pune",
+      "address": "42 Koregaon Park, Pune",
+      "rating": 4.8,
+      "price_range": "₹₹₹₹",
+      "ambiance": ["Fine Dining", "Elegant", "Romantic"],
+      "seating": {
+        "total_capacity": 55,
+        "table_types": {
+          "2_seater": 8,
+          "4_seater": 7,
+          "6_seater": 3,
+          "private_room": 1
+        }
+      },
+      "hours": {
+        "monday": "18:00-23:00",
+        "tuesday": "18:00-23:00",
+        "wednesday": "18:00-23:00",
+        "thursday": "18:00-23:00",
+        "friday": "18:00-00:00",
+        "saturday": "18:00-00:00",
+        "sunday": "18:00-23:00"
+      },
+      "features": ["Wine Pairing", "Authentic Italian Chef", "Valet Parking", "Terrace Seating"]
+    },
+    {
+      "id": "tt007",
+      "name": "Trattoria Toscana",
+      "cuisine": "Italian",
+      "location": "Pune",
+      "address": "88 Viman Nagar, Pune",
+      "rating": 4.5,
+      "price_range": "₹₹₹",
+      "ambiance": ["Rustic", "Cozy", "Authentic"],
+      "seating": {
+        "total_capacity": 60,
+        "table_types": {
+          "2_seater": 10,
+          "4_seater": 7,
+          "6_seater": 3
+        }
+      },
+      "hours": {
+        "monday": "12:00-22:30",
+        "tuesday": "12:00-22:30",
+        "wednesday": "12:00-22:30",
+        "thursday": "12:00-22:30",
+        "friday": "12:00-23:30",
+        "saturday": "12:00-23:30",
+        "sunday": "12:00-22:30"
+      },
+      "features": ["Homemade Pasta", "Imported Wines", "Traditional Recipes"]
+    },
+    {
+      "id": "sc008",
+      "name": "Seafood Cove",
+      "cuisine": "Seafood",
+      "location": "Bandra",
+      "address": "27 Waterfront Drive, Bandra West, Mumbai",
+      "rating": 4.6,
+      "price_range": "₹₹₹",
+      "ambiance": ["Coastal", "Relaxed", "Scenic"],
+      "seating": {
+        "total_capacity": 65,
+        "table_types": {
+          "2_seater": 8,
+          "4_seater": 9,
+          "6_seater": 4
+        }
+      },
+      "hours": {
+        "monday": "12:00-22:30",
+        "tuesday": "12:00-22:30",
+        "wednesday": "12:00-22:30",
+        "thursday": "12:00-22:30",
+        "friday": "12:00-23:30",
+        "saturday": "12:00-23:30",
+        "sunday": "12:00-22:30"
+      },
+      "features": ["Ocean View", "Fresh Catch", "Outdoor Seating"]
+    },
+    {
+      "id": "bt009",
+      "name": "Bombay Tadka",
+      "cuisine": "Indian",
+      "location": "Bandra",
+      "address": "15 Linking Road, Bandra West, Mumbai",
+      "rating": 4.4,
+      "price_range": "₹₹",
+      "ambiance": ["Contemporary", "Vibrant", "Stylish"],
+      "seating": {
+        "total_capacity": 85,
+        "table_types": {
+          "2_seater": 12,
+          "4_seater": 11,
+          "6_seater": 5
+        }
+      },
+      "hours": {
+        "monday": "11:30-23:00",
+        "tuesday": "11:30-23:00",
+        "wednesday": "11:30-23:00",
+        "thursday": "11:30-23:00",
+        "friday": "11:30-00:00",
+        "saturday": "11:30-00:00",
+        "sunday": "11:30-23:00"
+      },
+      "features": ["Live Music", "Rooftop Seating", "Cocktail Bar"]
+    },
+    {
+      "id": "sf010",
+      "name": "Sakura Fusion",
+      "cuisine": "Japanese",
+      "location": "Bandra",
+      "address": "42 Hill Road, Bandra West, Mumbai",
+      "rating": 4.7,
+      "price_range": "₹₹₹₹",
+      "ambiance": ["Modern", "Elegant", "Intimate"],
+      "seating": {
+        "total_capacity": 45,
+        "table_types": {
+          "2_seater": 10,
+          "4_seater": 5,
+          "6_seater": 2,
+          "private_room": 1
+        }
+      },
+      "hours": {
+        "monday": "18:00-22:30",
+        "tuesday": "18:00-22:30",
+        "wednesday": "18:00-22:30",
+        "thursday": "18:00-22:30",
+        "friday": "18:00-23:00",
+        "saturday": "18:00-23:00",
+        "sunday": "18:00-22:30"
+      },
+      "features": ["Sushi Bar", "Private Dining", "Chef's Table"]
+    },
+    {
+      "id": "ct011",
+      "name": "Coastal Tides",
+      "cuisine": "Goan",
+      "location": "Bandra",
+      "address": "8 Carter Road, Bandra West, Mumbai",
+      "rating": 4.3,
+      "price_range": "₹₹",
+      "ambiance": ["Beachy", "Casual", "Relaxed"],
+      "seating": {
+        "total_capacity": 70,
+        "table_types": {
+          "2_seater": 12,
+          "4_seater": 8,
+          "6_seater": 4
+        }
+      },
+      "hours": {
+        "monday": "12:00-23:00",
+        "tuesday": "12:00-23:00",
+        "wednesday": "12:00-23:00",
+        "thursday": "12:00-23:00",
+        "friday": "12:00-00:00",
+        "saturday": "12:00-00:00",
+        "sunday": "12:00-23:00"
+      },
+      "features": ["Seafood Specials", "Beach View", "Weekend Live Music"]
+    },
+    {
+      "id": "lm012",
+      "name": "La Maison",
+      "cuisine": "French",
+      "location": "Bandra",
+      "address": "33 Turner Road, Bandra West, Mumbai",
+      "rating": 4.8,
+      "price_range": "₹₹₹₹",
+      "ambiance": ["Fine Dining", "Sophisticated", "Romantic"],
+      "seating": {
+        "total_capacity": 40,
+        "table_types": {
+          "2_seater": 10,
+          "4_seater": 4,
+          "6_seater": 2,
+          "private_room": 1
+        }
+      },
+      "hours": {
+        "monday": "19:00-23:00",
+        "tuesday": "19:00-23:00",
+        "wednesday": "19:00-23:00",
+        "thursday": "19:00-23:00",
+        "friday": "19:00-00:00",
+        "saturday": "19:00-00:00",
+        "sunday": "19:00-23:00"
+      },
+      "features": ["Wine Cellar", "Chef's Tasting Menu", "Valet Parking"]
+    }
+  ]
+} 
