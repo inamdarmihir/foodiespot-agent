@@ -47,8 +47,6 @@ FoodieSpot addresses critical pain points in the restaurant reservation ecosyste
 
 ## Architecture
 
-![FoodieSpot Architecture](https://i.imgur.com/diagram-placeholder.png)
-
 The system follows a modular architecture with the following components:
 
 ### High-Level Architecture
